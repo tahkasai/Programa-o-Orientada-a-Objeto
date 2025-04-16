@@ -6,7 +6,11 @@ public class Pessoa {
     }	
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
+
+    //public String setNome(){
+        //return this.nome;
+    //}
 
 }

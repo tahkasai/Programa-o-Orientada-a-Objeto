@@ -2,22 +2,27 @@ public class Main {
     public static void main(String[] args) throws Exception {
         // não foi-se realizado uma instancia
         // a classe foi usada de maneira direta
+        //Produto.cor = "Azul";
+        //Produto.descricao = "Mesa";
+        //System.out.println("Cor: " + Produto.cor);
+        //System.out.println("Descricao: " + Produto.descricao);
+        //Produto p1 = new Produto();
+        //p1.cor = "Roxo";
+        //p1.descricao = "Mesa";
+        //Produto p2 = new Produto();
+        //p2.cor = "Vermelho";
+        //p2.descricao = "Mesa";
+        //System.out.println(p1.cor +" "+ p2.cor);
 
-        Produto.cor = "Azul";
-        Produto.descricao = "Mesa";
 
-        System.out.println("Cor: " + Produto.cor);
-        System.out.println("Descricao: " + Produto.descricao);
-
-        Produto p1 = new Produto();
-        p1.cor = "Roxo";
-        p1.descricao = "Mesa";
-
-        Produto p2 = new Produto();
-        p2.cor = "Vermelho";
-        p2.descricao = "Mesa";
-
-        System.out.println(p1.cor +" "+ p2.cor);
+        //exemplo
+        final String teste = "Exemplo";
+        //teste="Exemplo";
+        //teste="Exemplo1";
+        Pessoa p = new Pessoa("Tainá Kasai");
+        System.out.println("Nome: " + p.getNome());
+        Pessoa p1 = new Pessoa("Stefany Vitoria");
+        System.out.println("Nome: " + p1.getNome());
 
     }
 
