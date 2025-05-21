@@ -23,5 +23,6 @@ public class Professor {
     public void exibir(){
         System.out.println("Nome: "+nome);
         System.out.println("RM: "+rm);
+        System.out.println();
     }
 }

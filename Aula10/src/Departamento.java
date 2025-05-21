@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Departamento{
@@ -7,12 +8,20 @@ public class Departamento{
     private List<Professor> professores;
     
     public Departamento(){
-
+        this.professores = new ArrayList<>();
     }
+
+    /* Agregação não é obrigatório ter sua parte
+     * pode ter construtores vazios, if-else
+     * todo (departamento) -parte (professor)
+     * professor pode existir sem departamento
+     * departamento pode existir com nenhum ou vários professores
+     */
 
     public Departamento(String nomeDepartamento, int id) {
         this.nomeDepartamento = nomeDepartamento;
         this.id = id;
+        this.professores = new ArrayList<>();
         // this.professores = professores;
     }
 
